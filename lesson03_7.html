@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Collapse</title>
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <a class="btn btn-primary" href="#collapsediv" data-bs-toggle="collapse">See More</a>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#div2">Show Me Again</button>
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="collapse" id="collapsediv">
+                                <div class="card card-body">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, suscipit quidem? Aut ab autem fuga voluptatem, reiciendis, eum animi illum non nisi debitis nostrum ut fugit quos minus praesentium ratione!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="collapse" id="div2">
+                                <div class="card card-body">
+                                    <label for="forfeedback" class="form-label">feedback</label>
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h3>Register</h3>
+                    <div class=" p-3 bg-light border border-primary">
+                    
+                        <form>
+                            <div>
+                                <label for="forusername" class="form-label">Username</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div>
+                                <label for="forexmail" class="form-label">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <!--Gender-->
+                            <div class="row p-3">
+                                <div class="form-check col-6">
+                                    <input type="radio" class="form-check-input" name="gender">
+                                    <label class="form-check-label">Female</label>
+                                </div>
+                                <div class="form-check col-6">
+                                    <input type="radio" class="form-check-input" name="gender">
+                                    <label class="form-check-label">Male</label>
+                                </div>
+                            </div>
+                            <!--checkbox-->
+                            <div>
+                                <h3>Interests</h3>
+                            </div>
+                            <div class="row m-3">
+                                <div class="col-4 pl-2">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label">Sports</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label">Language</label>
+                                </div>
+                                <div class="col-4">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label">Programming Language</label>
+                                </div>
+                            </div>
+                    
+                            <!--formswitch-->
+                            <div class="form-switch m-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">Power Off</label>
+                            </div>
+                    
+                            <!--form slect-->
+                            <div>
+                                <label for="forcountry" class="form-label">Living country</label>
+                                <select class="form-select">
+                                    <option>Myanmar</option>
+                                    <option>Singapore</option>
+                                    <option>Malay</option>
+                                </select>
+                            </div>
+                            <!--datalist(input-list)-->
+                            <div>
+                                <label class="form-label" for="forcity">City</label>
+                                <input list="city" class="form-control">
+                                <datalist id="city">
+                                    <option value="Mandaly"></option>
+                                    <option value="Yangon"></option>
+                                    <option value="Taungyi"></option>
+                                </datalist>
+                            </div>
+                            <!--form control-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="forpassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control">
+                    
+                                </div>
+                                <div class="col-6">
+                                    <label for="forpassword" class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control">
+                    
+                                </div>
+                            </div>
+                            <!--form range-->
+                            <div>
+                                <label class="form-label">Web Development</label>
+                                <input type="range" class="form-range" min="0" max="100">
+                            </div>
+                            <div>
+                                <label for="formessage" class="form-label">Message</label>
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                    
+                            <div>
+                                <label for="forattachments" class="form-label"></label>
+                                <input type="file" class="form-control">
+                            </div>
+                            <div class="my-5 text-center">
+                                <button class="btn btn-primary">Register</button>
+                                <button class="btn btn-secondary">Cancel</button>
+                            </div>
+                    
+                    
+                        </form>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+    </body>
+</html>

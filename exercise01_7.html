@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing nav tab and accordion</title>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="exe01.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--header-->
+        <div>
+                <div class="container" style="height:120px;">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-5 col-sm-7 d-lg-block do-md-block d-sm-block d-none">
+                            <a href="#"><img src="image/ylogo.png" class="image-responsive" style="position:absolute;left:0px;top:0px;z-index:9;"></a>
+                        </div>
+                        <div class=" col-lg-6 col-md-7 d-sm-5 d-lg-block do-md-block d-none">
+                       
+                                <form class="d-flex pt-5 px-5 " >
+                                    <div class="input-group">                               
+                                    <input type="text" class="form-control" placeholder="Enter your search">
+                                    </div>
+                                    <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-outline-success"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>
+
+                                              
+                                 
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                
+            </div>
+        
+        
+            
+                    
+                
+               
+                 
+        <!--navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary ">
+            <div class="container">
+               
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainnav">
+                   <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Yangon University</a></li>
+                            <li><a class="dropdown-item" href="#">HlaingCampus</a></li>
+                            <li><a class="dropdown-item" href="#">Rector message</a></li>
+                            <li><a class="dropdown-item" href="#">Master plan</a></li>
+                            <li><a class="dropdown-item" href="#">Chapter</a></li>
+                            <li><a class="dropdown-item" href="#">Organization</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                           
+                           
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Departments</a>
+                        <ul class="dropdown-menu">
+                            <li ><a class="dropdown-item" href="#">ARTS &raquo;</a>
+                                <ul class="submenu dropdown-menu box11">
+                                    <div class="contanier ">
+                                        <div class="row" style="width:400px;">
+                                            <div class="col-6">
+                                                <li><a class="dropdown-item" href="">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                            </div>
+                                            <div class="col-6">
+                                                                                       
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                            </div>
+                                        </div>
+                                    </div>                                     
+ 
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Science &raquo;</a>
+                                <ul class="submenu dropdown-menu box2">
+                                    <div class="contanier">
+                                        <div class="row" style="width:400px;">
+                                            <div class="col-6">
+                                                <li><a class="dropdown-item" href="">Botany</a></li>
+                                                <li><a class="dropdown-item" href="#">Chemistry</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                
+                                            </div>
+                                            <div class="col-6">
+                                
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                                <li><a class="dropdown-item" href="#">Archeology</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">URC</a></li>
+                         
+                    
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Admission</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">UY library</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Library</a></li>
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Using the library</a></li>
+                            <li><a class="dropdown-item" href="#">Research support</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">International</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">ICO</a></li>
+                            <li><a class="dropdown-item" href="#">International Collaboration</a></li>
+                            <li><a class="dropdown-item" href="#">MOU</a></li>
+                            
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Media</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                            <li><a class="dropdown-item" href="#">Events</a></li>
+                            <li><a class="dropdown-item" href="#">UY centenary</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Erasmus+</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Neutrisea project</a></li>
+                            <li><a class="dropdown-item" href="#">Cabaret project</a></li>
+                            <li><a class="dropdown-item" href="#">Deem project</a></li>
+                            <li><a class="dropdown-item" href="#">Chinlone projectt</a></li>
+                            <li><a class="dropdown-item" href="#"> Toolkit project</a></li>
+                        
+                        </ul>
+                    </li>
+
+                   </ul>
+                </div>
+            </div>
+
+        </nav>
+        <!--jumbotron-->
+        <div class="jumbotron jumbotron-fluid bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2"><div class="text text-center">
+                        <h3>ANTHROPOLOGY</h3>
+                        <hr>
+                        <p>Home/Anthropology</p>
+                    </div></div>
+                    <div class="col-md-5"></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-md-8 text-justify">
+                    <h3 style="color:blue;">History Of Anthropology Department</h3>
+                    <p>The Department of Anthropology in Yangon University was established in 1950, in Judson Hall. Its location on the campus
+                    has moved over the years: first, to the Social Science building, then in 1964 to Taungoo Hall. Since 1983 the
+                    Anthropology Department has been located in Yamanya Hall. The Department started small, with few staff and students but
+                    then expanded to include Sociology and even International Relations for a few years until Anthropology was reduced to a
+                    minor subject status under the new education system in 1964. At that point, the Department shrank in numbers of staff
+                    and students, until 1982 when Anthropology was restored to major subject status again.
+                    In the early years of the Department, several overseas academics supported the teaching of Anthropology, Sociology and
+                    International Relations in Yangon, while several Myanmar academics furthered their studies in the USA and the UK.
+                    Nowadays the Department is staffed by Myanmar academics.<br>
+                    <b>Anthropology can be taken by Arts students as well as Science students.</b> Science students taking Anthropology as a minor
+                    subject can earn a B.A Degree. Post-graduate students have to carry out field research and collect survey data for their
+                    Masters thesis.
+                    Following the example of the University of Yangon, in the late 1950s other intermediate colleges teaching Anthropology
+                    were opened in Myanmar: in Mawlamyine, Pathein and Kyaukphyu.<br>
+                    <b>Detailed History:</b> The Department of Anthropology in Yangon University was established in 1950 under the Rector at that
+                    time, Dr. Htin Aung, in Judson Hall. Dr Htin Aung was also an honorary professor of the Anthropology Department,
+                    lecturing with visiting professor Dr. K. G. Orr from Chicago University.
+                    To begin with the Anthropology Department had seven first year students and three post graduate students. Daw Khin Khin
+                    Oo and Daw Khin Hmway were appointed tutors before Dr. K. G. Orr left to go back to Chicago. Then the two tutors were
+                    sent on state scholarships to Chicago and Alabama Universities in the USA and Mr. Musgrave lectured during their
+                    absence.
+                    When Daw Khin Khin Oo and Daw Khin Hmway returned from the USA in the a/y 1952-1953, Daw Khin Khin Oo was appointed Head
+                    of the Anthropology Department and the Department started teaching a range of classes from intermediate level, with a
+                    Masters degree introduced in 1957.</p>
+                    <a class="btn btn-danger float-right">Read More</a>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="row my-4 text-center">
+                        <div class="col-md-12 "><img src="image/dplogo.png"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="container ">
+                                <div class="accordion" id="parentAccordion">
+                                    <div class="accordion-item">
+                                        <h4 class="accordion-header" id="headingone">
+                                            <button class="accordion-button bg-warning" data-bs-toggle="collapse" data-bs-target="#one">
+                                                Vision
+                                            </button>
+                                        </h4>
+                                        <div class="collapse accordion-collapse" aria-labelledby="headingone" id="one" data-bs-parent="#parentAccordion">
+                                            <div class="accordion-body">
+                                                <p>- To set up acceptable forms and functions of human diversity and cultures in the present and the past through intensive
+                                                field work<br>
+                                                
+                                                - To increase students’ knowledge and skills in the intellectual, social and economic development related to local and
+                                                global Anthropology<br>
+                                                
+                                                -To develop creative research, teaching and a leading voice for the practice of public, collaborative and community
+                                                engaged Anthropology</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h4 class="accordion-header" id="headingtwo">
+                                            <button class="accordion-button bg-warning" data-bs-toggle="collapse" data-bs-target="#two">
+                                                Mission
+                                            </button>
+                                        </h4>
+                                        <div class="collapse accordion-collapse" aria-labelledby="headingtwo" id="two" data-bs-parent="#parentAccordion">
+                                            <div class="accordion-body">
+                                                - To study bio-cultural diversity in the present and the past - To develop students’ skills in research and theories,
+                                                writing and the application of Anthropological knowledge to enhance academic excellence and professional development -
+                                                To offer the highest quality instruction in Anthropological implementation in community development
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item ">
+                                        <h4 class="accordion-header" id="headingthree">
+                                            <button class="accordion-button bg-warning" data-bs-toggle="collapse" data-bs-target="#three">
+                                                Contact
+                                            </button>
+                                        </h4>
+                                        <div class="collapse accordion-collapse" aria-labelledby="headingthree" id="three" data-bs-parent="#parentAccordion">
+                                            <div class="accordion-body">
+                                                <i class="fa fa-map-marker"></i>Avenue Yamannya Building, Ground floor, University of Yangon.<br>                                              
+                                                <i class="fa fa-phone-square"></i>Tel:(951)534935, 09-421148432<br>                                               
+                                                <i class="fa fa-envelope-square"></i>-<br>
+                                                <i class="fa fa-facebook-square"></i>https://www.facebook.com/department
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <ul class="nav nav-tabs bg-warning ">
+                <li class="nave-item"><a class="nav-link active" data-bs-toggle="tab" href="#n1">News</a></li>
+                <li class="nave-item"><a class="nav-link" data-bs-toggle="tab" href="#n2">Research</a></li>
+                <li class="nave-item"><a class="nav-link" data-bs-toggle="tab" href="#n3">Faculaty Members</a></li>
+                <li class="nave-item"><a class="nav-link" data-bs-toggle="tab" href="#n4">Field of Study</a></li>
+                <li class="nave-item"><a class="nav-link" data-bs-toggle="tab" href="#n5">International Collaboration</a></li>
+                <li class="nave-item"><a class="nav-link" data-bs-toggle="tab" href="#n6">International Student</a></li>
+            </ul>
+            <div class="tab-content ">
+                <div class="tab-pane active" id="n1">
+                        <div class="container my-5 ">
+                            <h2 class="text-primary">Curriculum</h2>
+                            <div class="row">
+                                <div class="col-md-2">
+                                <ul class="nav nav-tabs flex-column degree">
+                                    <li class="nave-item border border-secondary "><a class="nav-link active"  data-bs-toggle="tab" href="#N1">BA</a></li>
+                                    <li class="nave-item border border-secondary"><a class="nav-link" data-bs-toggle="tab" href="#N2">MA</a></li>
+                                    <li class="nave-item border border-secondary"><a class="nav-link" data-bs-toggle="tab" href="#N3">PhD</a></li>
+                                    <li class="nave-item border border-secondary"><a class="nav-link" data-bs-toggle="tab" href="#N4">Post graduate diploma</a></li>
+                                    
+                                </ul>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="tab-content">
+                                        <div class="tab-pane " id="N1">
+                                            <div class="container">
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h3 class="accordion-header" id="headingone">
+                                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#firstY" data-bs-parent="#parentAccordion">
+                                                                First Year 
+                                                            </button>
+                                                    
+                                                        </h3>
+                                                        <div class="collapse accordion-collapse " aria-labelledby="headingone" id="firstY" >
+                                                            <div class="accordion-body">
+                                                                <strong>This is the second item.</strong>It has its ability.
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </div>
+
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-2">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Sy">
+                                                                Second Year
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="Sy" aria-labelledby="heading-2"
+                                                            data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                <div class="container">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">Second year</div>
+                                                                        <div class="col-md-6">Semister I</div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-1"></div>
+                                                                        <div class="col-10">
+                                                                            <table class="table table-bordered border-dark">
+                                                                                <tr class="table ">
+                                                                                    <td rowspan="2">Module no.</td>
+                                                                                    <td rowspan="2">Name of Module</td>
+                                                                                    <td rowspan="2">Credit points</td>                                                                        
+                                                                                    <td colspan="2">Hours per week</td>
+                                                                                    <tr>
+                                                                                        <td>Lectures</td>
+                                                                                        <td>Tutorial</td>
+                                                                                    </tr> 
+                                                                                </tr>  
+                                                                                <tr>
+                                                                                    <td>Eng 10001</td>
+                                                                                    <td>English</td>
+                                                                                    <td>75</td>
+                                                                                    <td>25</td>
+                                                                                    <td>10</td>
+                                                                                    
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Eng 10001</td>
+                                                                                    <td>English</td>
+                                                                                    <td>75</td>
+                                                                                    <td>25</td>
+                                                                                    <td>10</td>
+                                                                                
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Eng 10001</td>
+                                                                                    <td>English</td>
+                                                                                    <td>75</td>
+                                                                                    <td>25</td>
+                                                                                    <td>10</td>
+                                                                                
+                                                                                </tr>
+                                                                            
+                                                                                
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="col-1"></div>
+                                                                    </div>
+                                                                   
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-3">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Ty">
+                                                                Third Year
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="Ty" aria-labelledby="heading-3"
+                                                            data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                <div class="container">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">Second year</div>
+                                                                        <div class="col-md-6">Semister I</div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-1"></div>
+                                                                        <div class="col-10">
+                                                                            <table class="table table-bordered border-dark">
+                                                                                <tr class="table ">
+                                                                                    <td rowspan="2">Module no.</td>
+                                                                                    <td rowspan="2">Name of Module</td>
+                                                                                    <td rowspan="2">Credit points</td>
+                                                                                    <td colspan="2">Hours per week</td>
+                                                                                <tr>
+                                                                                    <td>Lectures</td>
+                                                                                    <td>Tutorial</td>
+                                                                                </tr>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Eng 10001</td>
+                                                                                    <td>English</td>
+                                                                                    <td>75</td>
+                                                                                    <td>25</td>
+                                                                                    <td>10</td>
+                                                                
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Eng 10001</td>
+                                                                                    <td>English</td>
+                                                                                    <td>75</td>
+                                                                                    <td>25</td>
+                                                                                    <td>10</td>
+                                                                
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Eng 10001</td>
+                                                                                    <td>English</td>
+                                                                                    <td>75</td>
+                                                                                    <td>25</td>
+                                                                                    <td>10</td>
+                                                                
+                                                                                </tr>
+                                                                
+                                                                
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="col-1"></div>
+                                                                    </div>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-4">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Fy">
+                                                               Fourth Year
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="Fy" aria-labelledby="heading-4"
+                                                            data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, debitis! Vel illum sint, molestiae beatae expedita libero labore maiores praesentium facere quasi eius, dolorum voluptates. Quis, dolorum? Architecto, enim aliquid!
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-5">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Qfy">
+                                                                First Year(Honours)
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="Qfy" aria-labelledby="heading-5"data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nisi reprehenderit repellat modi iusto illo dicta, rerum ea, numquam perspiciatis accusantium soluta? Sit fuga a ad voluptates, eum nemo repellat?
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-6">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#QSy">
+                                                                Second Year(Honours)
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="QSy" aria-labelledby="heading-6"
+                                                            data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nihil amet vitae voluptatum consequuntur exercitationem sed maiores iste beatae consectetur, mollitia, quaerat commodi impedit assumenda molestiae error cumque consequatur. Similique.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-7">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#QTy">
+                                                                Third Year(Honours & Qualify)
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="QTy" aria-labelledby="heading-7"
+                                                            data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis minus laboriosam, rem porro, perspiciatis suscipit nostrum doloremque optio et nihil ea velit sint accusantium illo aperiam! Eius, quaerat fugit?
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion" id="parentAccordion">
+                                                    <div class="accordion-item">
+                                                        <h class="accordion-header" id="heading-8">
+                                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#DAy">
+                                                                Diploma in Anthropology
+                                                
+                                                            </button>
+                                                        </h>
+                                                        <div class="collapse accordion-collapse" id="DAy" aria-labelledby="heading-8" data-bs-parent="#parentAccordion">
+                                                            <div class="accordion-body">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit quis exercitationem temporibus praesentium ducimus reprehenderit enim possimus accusamus reiciendis et sed quidem obcaecati expedita laudantium, magnam dolorem aliquam veniam.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                
+                                
+                                        </div>
+                                        <div class="tab-pane" id="N2">
+                                            <div class="container">
+                                                <h3>M.A</h3>
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic, culpa harum illo vel tempora id odit consectetur voluptatum rerum ad aliquid voluptate dolor deserunt, beatae earum dolorem possimus ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum molestiae magni minima. Odio voluptatum, perspiciatis dolores corporis, excepturi molestias cupiditate eveniet consequatur voluptatem iure laudantium, recusandae amet iste dolorem quibusdam!
+                                            </div>
+
+                                        </div>
+                                        <div class="tab-pane" id="N3">
+                                            <div class="container">
+                                                <h3>PhD</h3>
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic, culpa harum illo vel tempora id odit
+                                                consectetur voluptatum rerum ad aliquid voluptate dolor deserunt, beatae earum dolorem possimus ullam? Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Laborum molestiae magni minima. Odio voluptatum, perspiciatis
+                                                dolores corporis, excepturi molestias cupiditate eveniet consequatur voluptatem iure laudantium, recusandae amet
+                                                iste dolorem quibusdam!
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="tab-pane" id="N4">
+                                            <div class="container">
+                                                <h3>Dipolma</h3>
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic, culpa harum illo vel tempora id odit
+                                                consectetur voluptatum rerum ad aliquid voluptate dolor deserunt, beatae earum dolorem possimus ullam? Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Laborum molestiae magni minima. Odio voluptatum, perspiciatis
+                                                dolores corporis, excepturi molestias cupiditate eveniet consequatur voluptatem iure laudantium, recusandae amet
+                                                iste dolorem quibusdam!
+                                            </div>
+                                        
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="tab-pane" id="n2">
+                    <h4>International Links</h4> 
+                    The Department of Anthropology has contacts with the following universities and Institutes:
+                    <ol type="1">
+                    
+                    <li>Hanyang University and the Reshaping Development Institute, the Republic of Korea</li>
+                    <li>Danish Institute for International Studies and Aarhus University, Department of Anthropology, Denmark</li>
+                    <li>Chiang Mai University, Thailand</li>
+                    <li>Oxford University, England</li>
+                    <li>Tokyo University of Foreign Studies, Japan</li>
+                    <li>Hiroshima University, Japan</li>
+                    <li>International Ethnological Museum, Osaka, Japan</li>
+                    </ol>
+                    ဒေါက်တာ မြမြခင်
+                    <ol>
+                        <li>အခါတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)</li>
+                        <li>ကိုးကန့်တိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)</li>
+                        <li>ကယန်းတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)</li>
+                        <li>ချင်းတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)</li>
+                        <li>မရမာကြီးတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)</li>
+                        <li>တရုံတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)</li>
+                        <li>ဂန့်ဂေါမြို့နယ်တွင် နေထိုင်သူများ၏ လူနေမှုဘဝ အပေါ် သဘာဝ ပတ်ဝန်းကျင် ပြောင်းလဲမှု၏ အကျိုးသက်ရောက်မှုများ (၂ဝဝ၆-၂၀၁၀)</li>
+                        <li>မြန်မာမှု နယ်ပယ်တွင် တွေ့မြင်ရသော လူမှုရေး ဆိုင်ရာ တာဝန်သိမှုကို လေ့လာခြင်း (၂ဝဝ၆-၂၀၁၀)</li>
+                        <li>Re-socialization programs practised by Mon National Living in Kawtkalawt Village Tract, Kawtkalawt Village, Kyaitmayaw</li>
+                        <li>Township, Mon State (၂၀၁၆-၂၀၁၇)</li>
+                        <li>ဦးရှင်ကြီး နတ်ပူဇော်ပသပွဲ (၂၀၁၀-၂၀၁၁)</li>
+                        <li>Analysis of the religious anthropological theories (၂၀၁၁-၂၀၁၂)</li>
+                        <li>Analysis of the religious anthropological theories (2) (၂၀၁၂-၂၀၁၃)</li>
+                        <li>The impact of development programs on the native people’s life expectation living in falam Township, Chin state.
+                        (၃၁.၁၂.၂၀၁၄)</li>
+                        <li>Re-socialization programs practised by Mon National living in Kawtkalawt Village, Kawtkalawt Village tract, Kyaitmayaw
+                        <li>Township, Mon State (၃၁.၁၂.၂၀၁၇)</li>
+                    </ol>
+                    
+                    အခါတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)
+                    ကိုးကန့်တိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)
+                    ကယန်းတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)
+                    ချင်းတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)
+                    မရမာကြီးတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)
+                    တရုံတိုင်းရင်းသားများ၏လူမှုစီးပွားရေးဘဝ (၂ဝဝ၆-၂ဝဝရ)
+                    ဂန့်ဂေါမြို့နယ်တွင် နေထိုင်သူများ၏ လူနေမှုဘဝ အပေါ် သဘာဝ ပတ်ဝန်းကျင် ပြောင်းလဲမှု၏ အကျိုးသက်ရောက်မှုများ (၂ဝဝ၆-၂၀၁၀)
+                    မြန်မာမှု နယ်ပယ်တွင် တွေ့မြင်ရသော လူမှုရေး ဆိုင်ရာ တာဝန်သိမှုကို လေ့လာခြင်း (၂ဝဝ၆-၂၀၁၀)
+                    Re-socialization programs practised by Mon National Living in Kawtkalawt Village Tract, Kawtkalawt Village, Kyaitmayaw
+                    Township, Mon State (၂၀၁၆-၂၀၁၇)
+                    ဦးရှင်ကြီး နတ်ပူဇော်ပသပွဲ (၂၀၁၀-၂၀၁၁)
+                    Analysis of the religious anthropological theories (၂၀၁၁-၂၀၁၂)
+                    Analysis of the religious anthropological theories (2) (၂၀၁၂-၂၀၁၃)
+                    The impact of development programs on the native people’s life expectation living in falam Township, Chin state.
+                    (၃၁.၁၂.၂၀၁၄)
+                    Re-socialization programs practised by Mon National living in Kawtkalawt Village, Kawtkalawt Village tract, Kyaitmayaw
+                    Township, Mon State (၃၁.၁၂.၂၀၁၇)
+                    
+                    ဒေါက်တာ သန်းပုလဲ
+                    
+                    ကယားပြည်နယ်တွင် နေထိုင်သော ယင်းဘော် တိုင်းရင်းသားတို့ လက်တွေ့ ကျင့်သုံးနေသော ကျန်းမာရေးဆိုင်ရာ မိရိုးဖလာ အသိပညာများ
+                    (ဆောင်ရွက်ဆဲ)
+
+                </div>
+                <div class="tab-pane" id="n3">
+                
+                </div>
+                <div class="tab-pane" id="n4">
+                
+                </div>
+                <div class="tab-pane" id="n5">
+                
+                </div>
+                <div class="tab-pane" id="n6">
+                
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
